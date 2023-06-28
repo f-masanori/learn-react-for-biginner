@@ -1,0 +1,23 @@
+{
+  "name": "react1",
+  "version": "1.0.0",
+  "description": "$ npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5"
+  },
+  "dependencies": {
+    "express": "^5.0.0-beta.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
