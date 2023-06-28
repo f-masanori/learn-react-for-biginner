@@ -22,7 +22,10 @@ babel は、ブラウザが対応していない新しいバージョンで書�
 まず、babel を使って tsx を js に変換する。変換後の js は lib ディレクトリ内にある。(tsx は jsx の typescript バージョン)
 $ npx babel --presets @babel/preset-typescript --extensions .tsx ./src/index.tsx --out-dir ./lib
 
-$
+次に、web サーバーを起動する
+$ node devServer.js
+
+localhost:3000 にアクセスして src/index.tsx に記述したものが表示されていることを確認できる
 
 ## このサンプルを作成した手順
 
