@@ -9,13 +9,9 @@ learn-babel は、babel を使って React の tsx のコードを js に変換�
 babel は、ブラウザが対応していない新しいバージョンで書かれた Javascript のコードを、古いバージョンの Javascript のコードに変換するツール。
 ただ、babel に設定を加えると JSX を JS にトランスパイルすることもできる。
 
-- ＊JSX は JS の糖衣構文に過ぎない
-- ＊JSX は Javascript XML
-- ＊JSX をブラウザで読み込ませるには、JS に変換(トランスパイル)する必要がある
-
-- ブラウザ側でライブラリを使う方法は？
-  - CDN
-  - バンドル
+- JSX は JS の糖衣構文に過ぎない
+- JSX は Javascript XML
+- JSX をブラウザで読み込ませるには、JS に変換(トランスパイル)する必要がある
 
 ## 起動手順
 
@@ -32,3 +28,9 @@ $ node devServer.js
 ```
 
 localhost:3000 にアクセスして src/index.tsx に記述したものが表示されていることを確認できる
+
+## 基礎メモ
+
+- ブラウザ側でライブラリを使う方法は？
+  - CDN
+  - バンドル
